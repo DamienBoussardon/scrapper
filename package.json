@@ -1,0 +1,33 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Projet tutoré Scraper",
+  "main": "Core/server.js",
+  "scripts": {
+    "start": "nodemon Core/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Joffrey_Guillon/projet-tutore-scrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Joffrey_Guillon/projet-tutore-scrapper/issues"
+  },
+  "homepage": "https://gitlab.com/Joffrey_Guillon/projet-tutore-scrapper#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.1.0",
+    "faker": "^4.1.0",
+    "hapi": "^17.7.0",
+    "knex": "^0.15.2",
+    "node-cron": "^2.0.3",
+    "objection": "^1.4.0",
+    "pg": "^7.6.1",
+    "request": "^2.88.0",
+    "twig": "^1.12.0",
+    "vision": "^5.4.3"
+  }
+}
